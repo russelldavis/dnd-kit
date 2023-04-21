@@ -92,6 +92,7 @@ export type {
 
 export type {
   ClientRect,
+  Coordinates,
   DistanceMeasurement,
   DragEndEvent,
   DragMoveEvent,
@@ -107,6 +108,7 @@ export {
   getClientRect,
   getFirstCollision,
   getScrollableAncestors,
+  getScrollDirectionAndSpeed,
   closestCenter,
   closestCorners,
   rectIntersection,
