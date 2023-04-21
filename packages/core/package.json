@@ -1,6 +1,6 @@
 {
   "name": "@dnd-kit/core",
-  "version": "6.0.8",
+  "version": "99.0.1",
   "description": "dnd kit – a lightweight React library for building performant and accessible drag and drop experiences",
   "author": "Claudéric Demers",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "build": "tsdx build --tsconfig tsconfig.build.json",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "main": "dist/index.js",
   "module": "dist/core.esm.js",
